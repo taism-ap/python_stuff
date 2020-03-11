@@ -9,6 +9,9 @@ If you create a basic program in python, it is easy to run either direction from
 x = "Hello World!"
 print(x)
 ```
+```
+Hello World!
+```
 
 But what if instead I want my code inside a function
 
@@ -18,7 +21,11 @@ def main():
   print(x)
 ```
 
-Now, if I try to run this program ("python3 program.py") nothing will happen, since I am not calling the function. You can fix this one of two ways. The first is to just call the function at the end of the program file:
+Now, if I try to run this program ("python3 program.py") 
+```
+```
+
+nothing will happen, since I am not calling the function. You can fix this one of two ways. The first is to just call the function at the end of the program file:
 
 ```python
 def main():
@@ -37,3 +44,4 @@ def main():
 if __name__ == "__main__":
   main()
 ```
+
