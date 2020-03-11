@@ -45,3 +45,4 @@ if __name__ == "__main__":
   main()
 ```
 
+Why, you might ask, would you do this, if just adding "main()" at the end is easier? Good question.
